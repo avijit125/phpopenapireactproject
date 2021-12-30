@@ -46,6 +46,7 @@ const Login = () => {
                           onChange={(e) => setEmail(e.target.value)}
                           class="form-control"
                           placeholder=" email address"
+                          required
                         />
                         <label class="form-label">email</label>
                       </div>
@@ -56,6 +57,7 @@ const Login = () => {
                           value={password}
                           onChange={(e) => setPassword(e.target.value)}
                           class="form-control"
+                          required
                         />
                         <label class="form-label">Password</label>
                       </div>
